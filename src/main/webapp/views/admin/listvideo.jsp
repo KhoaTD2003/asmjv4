@@ -39,7 +39,7 @@
 						<td>${videos.views}</td>
 						<td>${videos.shares}</td>
 						<td>${videos.descriptions}</td>
-						<td>${videos.isActive}</td>
+						<td>${videos.isActive ? "Hoat dong" : "Khong hoat dong"}</td>
 						
 						<td>
 							<a href="edit-product.jsp?id=${product.id}"><button type="button" class="btn btn-info"> Sửa</button></a>
@@ -49,7 +49,7 @@
 				</c:forEach>
 			</tbody>
 		</table>
-		<a href="add-product.jsp"><button type="button" class="btn btn-success">Thêm sản phẩm mới</button></a>
+		<a href="?mode=create"><button type="button" class="btn btn-success">Thêm sản phẩm mới</button></a>
 	</div>
 </body>
 </html>

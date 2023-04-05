@@ -41,7 +41,10 @@ private VideoService videoService = new VideoServiceImpl();
 	}else if ( currentUser != null && currentUser.getIsAdmin() ==Boolean.TRUE & uri.contains("addvideo")){
 		req.getRequestDispatcher("/views/admin/addVideo.jsp").forward(req, resp);
 	}else if(currentUser != null && currentUser.getIsAdmin() ==Boolean.TRUE & uri.contains("update")) {
-		req.getRequestDispatcher("/views/admin/update.jsp").forward(req, resp);
+		req.getRequestDispatcher("/views/admin/update." +
+				"" +
+
+				"jsp").forward(req, resp);
 		
 	}/*else {
 		resp.getWriter().write("chưa đăng nhập");

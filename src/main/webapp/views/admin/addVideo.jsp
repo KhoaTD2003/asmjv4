@@ -1,55 +1,55 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<meta charset="UTF-8">
+	<title>Thêm sản phẩm mới</title>
+	<!-- Thêm các thư viện CSS cho Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<header class="container"><h3 style="text-align: center;margin-top:15px;">Thêm thông tin Sản Phẩm</h3>
-</header>
-<main class="container">
-    <section>
-        <form action="/qly-sp/addvideo" method="post">
-            <div class="row mt-4">
-                <div class="col-6">
-                    <label>Title</label>
-                    <input type="text" class="form-control" name="title"/>
-                </div>
-                <div class="col-6">
-                    <label>Href </label>
-                    <input type="text" class="form-control" name ="href"/>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-6">
-                    <label>Total Like </label>
-                    <input type="text" class="form-control" name ="totallike"/>
-                </div>
-              
-            </div>
-          
-            <div class="row mt-4" style="justify-content: center">
-                <button class="btn btn-success col-1 m-3">
-                    Add
-                </button>
-            </div>
-        </form>
-    </section>
-
-</main>
-<footer><p style="text-align: center;">HangNT169</p></footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-        crossorigin="anonymous"></script>
+	<div class="container">
+		<h2>Thêm sản phẩm mới</h2>
+		<form action="?mode=create" method="post">
+			<div class="form-group">
+				<label for="title">Tên sản phẩm:</label>
+				<input type="text" class="form-control" id="title" name="title" required>
+			</div>
+			<div class="form-group">
+				<label for="href">Href:</label>
+				<input type="text" class="form-control" id="href" name="href" required>
+			</div>
+			<div class="form-group">
+				<label for="poster">Poster:</label>
+				<input type="text" class="form-control" id="poster" name="poster" required>
+			</div>
+			<div class="form-group">
+				<label for="views">Số lần xem:</label>
+				<input type="number" class="form-control" id="views" name="views" value="0">
+			</div>
+			<div class="form-group">
+				<label for="shares">Số lần chia sẻ:</label>
+				<input type="number" class="form-control" id="shares" name="shares" value = "0">
+			</div>
+			<div class="form-group">
+				<label for="description">Mô tả:</label>
+				<textarea class="form-control" id="description" name="description" rows="5"></textarea>
+			</div>
+			<div class="form-group">
+				<label for="isActive">Trạng thái hoạt động:</label>
+				<select class="form-control" id="isActive" name="isActive" required>
+					<option value="true">Hoạt động</option>
+					<option value="false">Không hoạt động</option>
+				</select>
+			</div>
+			<button type="submit" class="btn btn-success">Thêm sản phẩm</button>
+			<a href="?mode="><button type="button" class="btn btn-danger">Hủy</button></a>
+		</form>
+	</div>
 </body>
 </html>
