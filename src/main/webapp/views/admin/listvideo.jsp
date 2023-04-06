@@ -42,7 +42,7 @@
 						<td>${videos.isActive ? "Hoat dong" : "Khong hoat dong"}</td>
 						
 						<td>
-							<a href="?mode=update&id=${videos.id}"><button type="button" class="btn btn-info"> Sửa</button></a>
+							<a href="?mode=edit&id=${videos.id}"><button type="button" class="btn btn-info"> Sửa</button></a>
 							<a href="?mode=delete&href=${videos.href}"><button type="button" class="btn btn-danger"> Xóa</button></a>
 						</td>
 					</tr>

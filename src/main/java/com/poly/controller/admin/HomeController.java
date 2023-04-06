@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.poly.controller.constant.SessionAttr;
+import com.poly.constant.SessionAttr;
 import com.poly.dto.VideoLikedInfo;
 import com.poly.entity.User;
 import com.poly.service.StatsService;

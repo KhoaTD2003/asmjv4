@@ -5,43 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c9cde53-020c-475d-a984-2fe123a7b6ae" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_2_1.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asmjv4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/asmjv4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/constant/SessionAttr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/controller/constant/SessionAttr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/controller/VideoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/controller/admin/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/controller/admin/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/controller/admin/adVideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/controller/admin/adVideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/service/impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/service/impl/VideoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/admin/addVideo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/admin/addVideo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/controller/constant/SessionAttr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/constant/SessionAttr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/admin/listvideo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/admin/listvideo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/admin/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/admin/update.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/user/video_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/user/video_detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/constant/SessionAttr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/constant/SessionAttr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/controller/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/poly/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/poly/controller/VideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/controller/VideoController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/poly/controller/admin/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/controller/admin/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/poly/controller/admin/adVideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/controller/admin/adVideoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/dao/AbstracDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/dao/AbstracDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/dao/impl/HistoryDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/dao/impl/HistoryDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/dao/impl/StatsDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/dao/impl/StatsDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/dao/impl/VideoDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/dao/impl/VideoDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/dto/VideoLikedInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/dto/VideoLikedInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/entity/History.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/entity/History.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/entity/Video.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/entity/Video.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/service/impl/HistoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/service/impl/HistoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/service/impl/StatsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/service/impl/StatsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/service/impl/VideoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/service/impl/VideoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/util/JpaUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/util/JpaUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/util/NumberUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/util/NumberUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/controller/constant/SessionAttr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/asmjv4/asmjv4/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/asmjv4/asmjv4/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/asmjv4/asmjv4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/asmjv4/asmjv4/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,22 +184,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/poly/controller/VideoController.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/poly/controller/admin/adVideoController.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

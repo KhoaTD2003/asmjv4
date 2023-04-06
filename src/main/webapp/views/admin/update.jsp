@@ -27,7 +27,7 @@
          </div>
          <div class="form-group">
            <label for="descriptions">Mô tả:</label>
-           <input type="text" class="form-control" id="descriptions" name="descriptions" value="${videos.descriptions}">
+           <input type="text" class="form-control" id="descriptions" name="description" value="${videos.descriptions}">
          </div>
          <button type="submit" class="btn btn-primary">Lưu</button>
        </form>

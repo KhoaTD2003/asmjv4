@@ -100,18 +100,18 @@ public class adVideoController extends HttpServlet {
             resp.sendRedirect(req.getContextPath() + "/video/all");
         } else if (action.equals("edit")) {
             // Chỉnh sửa video từ form và chuyển hướng về trangdanh sách video
-            Integer id = Integer.parseInt(req.getParameter("id"));
-            String title = req.getParameter("title");
-            String href = req.getParameter("href");
-            String poster = req.getParameter("poster");
-            String description = req.getParameter("description");
-            Video video = videoService.findById(id);
-            video.setTitle(title);
-            video.setHref(href);
-            video.setPoster(poster);
-            video.setDescriptions(description);
-            videoService.update(video);
-            resp.sendRedirect(req.getContextPath() + "/video/all");
+           Integer id = Integer.parseInt(req.getParameter("id"));
+           String title = req.getParameter("title");
+           String href = req.getParameter("href");
+          String poster = req.getParameter("poster");
+          String description = req.getParameter("description");
+          Video video = videoService.findById(id);
+          video.setTitle(title);
+          video.setHref(href);
+          video.setPoster(poster);
+          video.setDescriptions(description);
+           videoService.update(video);
+           resp.sendRedirect(req.getContextPath() + "/video/all");
     }
         else{
             if (action == null || !action.equals("delete")) {

@@ -53,7 +53,7 @@
         </div>
 
             </div>
-        
+        descriptions 
        <%@ include file="/common/footer.jsp" %>
    
 </body>
