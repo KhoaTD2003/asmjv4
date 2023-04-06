@@ -80,11 +80,11 @@
 <artifactId>commons-beanutils</artifactId>
 <version>1.9.4</version>
 </dependency>
-  	<dependency>
+  	<!-- <dependency>
   		<groupId>Demo</groupId>
   		<artifactId>Demo</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+  	</dependency> -->
   </dependencies>
   <build>
     <plugins>

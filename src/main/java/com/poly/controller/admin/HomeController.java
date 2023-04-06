@@ -10,19 +10,18 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.poly.constant.SessionAttr;
+import com.poly.controller.constant.SessionAttr;
 import com.poly.dto.VideoLikedInfo;
 import com.poly.entity.User;
-import com.poly.entity.Video;
 import com.poly.service.StatsService;
-import com.poly.service.VideoService;
 import com.poly.service.impl.StatsServiceImpl;
-import com.poly.service.impl.VideoServiceImpl;
 
 @WebServlet(name = "qly-sp" ,value =
 		{"/qly-sp/qlvideo","/qly-sp/videoupdate","/qly-sp/addvideo"})
 public class HomeController extends HttpServlet{
+/*
 private VideoService videoService = new VideoServiceImpl();
+*/
 	/**
 	 * 
 	 */
@@ -41,14 +40,11 @@ private VideoService videoService = new VideoServiceImpl();
 	}else if ( currentUser != null && currentUser.getIsAdmin() ==Boolean.TRUE & uri.contains("addvideo")){
 		req.getRequestDispatcher("/views/admin/addVideo.jsp").forward(req, resp);
 	}else if(currentUser != null && currentUser.getIsAdmin() ==Boolean.TRUE & uri.contains("update")) {
-		req.getRequestDispatcher("/views/admin/update." +
-				"" +
-
-				"jsp").forward(req, resp);
+		req.getRequestDispatcher("/views/admin/update.jsp").forward(req, resp);
 		
-	}/*else {
+	}else {
 		resp.getWriter().write("chưa đăng nhập");
-	}*/
+	}
 	}
 	
 	/*

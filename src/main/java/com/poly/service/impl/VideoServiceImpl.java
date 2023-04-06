@@ -52,10 +52,16 @@ public class VideoServiceImpl implements VideoService {
 
 	@Override
 	public Video delete(String href) {
+		/*Video entity = findByHref(href);
+		entity.setIsActive(Boolean.FALSE);
+		return dao.update(entity);*/
 		Video entity = findByHref(href);
+		if (entity == null) {
+			// handle video not found
+			return null;
+		}
 		entity.setIsActive(Boolean.FALSE);
 		return dao.update(entity);
-		
 	}
 
 

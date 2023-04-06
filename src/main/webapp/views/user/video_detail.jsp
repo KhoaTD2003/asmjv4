@@ -7,8 +7,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> ${video.title} </title>
-<%@ include file ="/common/head.jsp" %>
- 
+<link rel="stylesheet" href="<c:url value ='/templates/User/css/bootstrap.min.css'/>">
+<link rel="stylesheet" href="<c:url value ='/templates/User/css/templatemo-style.css'/>">
+<link rel="stylesheet" href="<c:url value ='/templates/User/fontawesome/css/all.min.css'/>">
+
+
 </head>
 <body>
       <%@ include file="/common/header.jsp" %>

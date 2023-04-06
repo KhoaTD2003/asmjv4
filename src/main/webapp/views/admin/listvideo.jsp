@@ -42,8 +42,8 @@
 						<td>${videos.isActive ? "Hoat dong" : "Khong hoat dong"}</td>
 						
 						<td>
-							<a href="edit-product.jsp?id=${product.id}"><button type="button" class="btn btn-info"> Sửa</button></a>
-							<a href="delete-product.jsp?id=${product.id}"><button type="button" class="btn btn-danger"> Xóa</button></a>
+							<a href="?mode=update&id=${videos.id}"><button type="button" class="btn btn-info"> Sửa</button></a>
+							<a href="?mode=delete&href=${videos.href}"><button type="button" class="btn btn-danger"> Xóa</button></a>
 						</td>
 					</tr>
 				</c:forEach>

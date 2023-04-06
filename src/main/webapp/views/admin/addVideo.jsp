@@ -48,7 +48,7 @@
 				</select>
 			</div>
 			<button type="submit" class="btn btn-success">Thêm sản phẩm</button>
-			<a href="?mode="><button type="button" class="btn btn-danger">Hủy</button></a>
+			<a href="all"><button type="button" class="btn btn-danger">Hủy</button></a>
 		</form>
 	</div>
 </body>
