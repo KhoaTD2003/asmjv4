@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c9cde53-020c-475d-a984-2fe123a7b6ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/controller/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/controller/admin/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/controller/admin/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/controller/admin/adVideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/controller/admin/adVideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/controller/constant/SessionAttr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/constant/SessionAttr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/admin/listvideo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/admin/listvideo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/admin/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/admin/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/service/impl/HistoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/service/impl/HistoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/user/video_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/user/video_detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/controller/VideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/controller/VideoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/controller/admin/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/controller/admin/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/controller/admin/adVideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poly/controller/admin/adVideoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poly/controller/constant/SessionAttr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/asmjv4/asmjv4/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/asmjv4/asmjv4/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/asmjv4/asmjv4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/asmjv4/asmjv4/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

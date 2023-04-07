@@ -62,7 +62,7 @@ public class HistoryServiceImpl implements HistoryService{
 			existHistory.setLikeDate(new Timestamp(System.currentTimeMillis()));
 		}else {
 			existHistory.setIsLiked(Boolean.FALSE);
-			existHistory.setIsLiked(null);
+			existHistory.setLikeDate(null);
 		}
 		History updatedHistory = dao.update(existHistory);
 		return updatedHistory != null ?true :false;   

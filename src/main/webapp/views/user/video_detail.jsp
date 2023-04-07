@@ -29,7 +29,7 @@
                 <div class="tm-bg-gray tm-video-details">
                    <c:if test="${not empty sessionScope.currentUser}">
                     <div class="text-center mb-5">
-                       <a href="<c:url value ='/video?action=like&id=${video.href}'/>" class="btn btn-primary tm-btn-big">
+                       <button id ="likeOrUnlikeBtn" class="btn btn-primary tm-btn-big">
                         <c:choose>
                         <c:when test="${flagLikedBtn == true }">
                         	Unlike
@@ -47,14 +47,31 @@
                         <h3 class="tm-text-gray-dark mb-3">Decription</h3>
                         <p> ${video.descriptions}</p>
                     </div>
-
+                <input id ="videoIdHdn" type ="hidden" value = "${video.href}"/>
                 </div>
             </div>
         </div>
 
             </div>
-        descriptions 
+        descriptions
        <%@ include file="/common/footer.jsp" %>
-   
+   <script>
+    $('#likeOrUnlikeBtn').click(function(){
+    var videoId = $('#videoIdHdn').val();
+    $.ajax({
+        url: 'video?action=like&id=' +videoId
+    }).then(function(data){
+        var text = $('#likeOrUnlikeBtn').text();
+        if(text.indexOf('Like') != -1){
+            $('#likeOrUnlikeBtn').text('Unlike');
+        }else{
+              $('#likeOrUnlikeBtn').text('like');
+        }
+    }).fail(function(error){
+        alert('OOPS');
+    });
+    });
+      </script>
+
 </body>
 </html>
