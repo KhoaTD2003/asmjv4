@@ -47,20 +47,18 @@ private VideoService videoService = new VideoServiceImpl();
 	}
 	}
 	
-	/*
-	 * @Override protected void doPost(HttpServletRequest req, HttpServletResponse
+/*	 * @Override protected void doPost(HttpServletRequest req, HttpServletResponse
 	 * resp) throws ServletException, IOException { // Lấy thông tin từ form post
 	 * String title = request.getParameter("title"); String url =
 	 * request.getParameter("url"); String description =
 	 * request.getParameter("description");
-	 * 
+	 *
 	 * // Tạo đối tượng Video từ thông tin trên form Video video = new Video();
 	 * video.setTitle(title); video.setHref(url); video.setDescription(description);
-	 * 
+	 *
 	 * // Thêm đối tượng Video vào database videoService.create(video);
-	 * 
-	 * // Redirect về trang hiển thị danh sách video
-	 * response.sendRedirect(request.getContextPath() + "/video"); }
-	 */
-	 
+
+	  // Redirect về trang hiển thị danh sách video
+	 response.sendRedirect(request.getContextPath() + "/video"); }*/
+
 }

@@ -18,7 +18,7 @@
 		<form action="?mode=create" method="post">
 			<div class="form-group">
 				<label for="title">Tên sản phẩm:</label>
-				<input type="text" class="form-control" id="title" name="title" required>
+				<input type="text" class="form-control" id="title" name="title" required placeholder ="Tên Sản Phẩm" >
 			</div>
 			<div class="form-group">
 				<label for="href">Href:</label>

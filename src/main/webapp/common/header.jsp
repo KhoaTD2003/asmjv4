@@ -27,10 +27,10 @@
                     <a class="nav-link nav-link-1 active" aria-current="page" href="index.html">Hello,${sessionScope.currentUser.username}</a>
                 </li>
                   <li class="nav-item">
-                    <a class="nav-link nav-link-1 active" aria-current="page" href="index.html">Favourite</a>
+                    <a class="nav-link nav-link-1 active" aria-current="page" href="<c:url value ='/favourite'/>">Favourite</a>
                 </li>
                   <li class="nav-item">
-                    <a class="nav-link nav-link-1 active" aria-current="page" href="index.html">History</a>
+                    <a class="nav-link nav-link-1 active" aria-current="page" href="<c:url value ='/history'/>">History</a>
                 </li>
                  <li class="nav-item">
                     <a class="nav-link nav-link-1 active" aria-current="page" href="logout">Logout</a>
